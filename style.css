@@ -1,0 +1,37 @@
+/* Form error message */
+#scf_error_message {
+    color: red;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Success message styling */
+#scf_success_message {
+    font-size: 1.2em;
+    color: green;
+}
+
+/* Basic form styling */
+#scf_contact_form input[type="text"],
+#scf_contact_form input[type="email"],
+#scf_contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#scf_contact_form input[type="submit"] {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#scf_contact_form input[type="submit"]:hover {
+    background-color: #46a1c3;
+}
